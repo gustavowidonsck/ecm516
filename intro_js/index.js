@@ -1,4 +1,22 @@
-
+//JSON: Java =Script Object Notation
+//Uma pessoa se chama Maria, tem 21 anos e mora na Rua B, numero 50
+let pessoa = {
+  nome: 'Maria',
+  idade: 21,
+  endereco: 'Rua B',
+  numero: 50
+}
+console.log(pessoa.nome)
+console.log(pessoa['idade'])
+console.log(pessoa.endereco)
+console.log(pessoa['numero'])
+//Uma pessoa que se chama João e tem 17 anos 
+// let pessoa = {
+//   nome: 'João', 
+//   idade: 17
+// }
+// console.log(pessoa.nome)
+// console.log(pessoa['idade'])
 
 // const eAgora = () => {
 //   let cont = 1
